@@ -2,8 +2,8 @@
 def line(arr)
   if arr.length > 0 
     n = []
-    arr.each {|name| n << "#{arr.index(name) + }  #{name}"}
-    puts n.join(" ")
+    arr.each {|name| n << "#{arr.index(name) + 1}  #{name}"}
+    puts "The line is currently: #{n.join(" ")}"
   else 
     puts "The line is currently empty."
   end 
