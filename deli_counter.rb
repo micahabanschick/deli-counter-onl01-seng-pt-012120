@@ -16,7 +16,8 @@ end
 
 def now_serving(arr)
   if arr.length > 0 
-    puts "Currently serving Grace."
+    puts "Currently serving #{arr[0]}."
+    return arr.shift()
   else 
     puts "There is nobody waiting to be served!"
   end 
