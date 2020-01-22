@@ -1,7 +1,7 @@
 # Write your code here.
 def line(arr)
   if arr.length > 0 
-    arr 
+    puts "1. " + arr.join(" #{} ") 
   else 
     puts "The line is currently empty."
   end 
