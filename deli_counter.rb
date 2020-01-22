@@ -2,7 +2,7 @@
 def line(arr)
   if arr.length > 0 
     n = []
-    arr.each {|name| n << arr.index(name) + name}
+    arr.each {|name| n << "arr.index(name) + name"}
     puts n.join("")
   else 
     puts "The line is currently empty."
