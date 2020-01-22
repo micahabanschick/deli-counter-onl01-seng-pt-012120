@@ -1,6 +1,10 @@
 # Write your code here.
 def line(arr)
-  arr
+  if arr.length > 0 
+    arr 
+  else 
+    "The line is currently empty."
+  end 
 end 
 
 def take_a_number(arr)
