@@ -10,7 +10,7 @@ def line(arr)
 end 
 
 def take_a_number(arr, name)
-  array.push(name)
+  arr.push(name)
   puts "Welcome, #{name}. You are number #{arr.index(name) + 1} in line."
 end 
 
