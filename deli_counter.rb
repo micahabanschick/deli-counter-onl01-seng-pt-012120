@@ -10,7 +10,8 @@ def line(arr)
 end 
 
 def take_a_number(arr,name)
-  arr
+  array.push(name)
+  puts 
 end 
 
 def now_serving(arr)
