@@ -11,7 +11,7 @@ end
 
 def take_a_number(arr,name)
   array.push(name)
-  puts 
+  puts "Welcome, #{name}. You are number #{arr.index(name) + 1} in line."
 end 
 
 def now_serving(arr)
